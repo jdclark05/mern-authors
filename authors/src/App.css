@@ -1,0 +1,206 @@
+
+/*------------------------------------------------------------------------*/
+/**App Container ---------------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+.appContainer {
+  border: 2px solid #000;
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  height: 850px;
+  width: 1600px;
+}
+/*------------------------------------------------------------------------*/
+/**List of authors/Home page----------------------------------------------*/
+/*------------------------------------------------------------------------*/
+.listMain {
+  width: 500px;
+}
+
+.listHeader {
+  font-size: 1.4rem;
+}
+
+.listSubHeader1 {
+  margin-left: 10px;
+  margin-top: -15px;
+}
+
+.listSubHeader2 {
+  margin-left: 10px;
+  margin-top: -10px;
+  color: rgb(103, 21, 196);
+}
+
+.tableMain {
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  padding: none !important;
+  border-collapse: none !important;
+}
+
+.tableHeaders {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  flex-direction: row;
+  background-color: #989898;
+  font-size: 1.3rem;
+  border-bottom: 2px solid #000;
+}
+
+.header1 {
+  padding-left: 10px;
+  flex: 1;
+  color: #fff;
+}
+
+.header2 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  border-left: 2px solid #000;
+  padding-left: 10px;
+  color: #fff;
+  flex: 1.5;
+}
+
+.tableRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #989898;
+  border-bottom: 2px solid #000;
+}
+
+.tableRow:nth-child(even) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #989898;
+  color: #fff;
+}
+
+.authorName{
+  flex: .95;
+  margin-left: 10px;
+  color: rgb(103, 21, 196);
+}
+
+.buttonsED {
+  flex: 1.47;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border-left: 2px solid #000;
+}
+
+.editButton {
+  height: 35px;
+  width: 90px;
+  border-radius: 5px;
+  border: none;
+  background-image: linear-gradient(rgb(252, 252, 216), #1f1d41);
+}
+
+.deleteButton{
+  height: 35px;
+  width: 90px;
+  border-radius: 5px;
+  border: none;
+  background-image: linear-gradient(rgb(252, 216, 216), #1f1d41);
+}
+
+/*------------------------------------------------------------------------*/
+/**Form to add author-----------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+.homeLink {
+  text-decoration: underline;
+  margin-left: 10px;
+  margin-top: -15px;
+  color: blue;
+}
+
+.addSubText {
+  margin-left: 10px;
+  margin-top: -10px;
+  color: rgb(103, 21, 196);
+}
+
+.formMain{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border: 2px solid #888888;
+  height: 160px;
+  width: 350px;
+}
+
+.formLabel {
+  font-size: 1.2rem;
+  color: #686868;
+}
+
+.formInput {
+  height: 25px;
+  width: 250px;
+  border: 1px solid #888888;
+}
+
+.formButtons {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  margin-left: 5px;
+}
+
+.cancelButton {
+  height: 40px;
+  width: 110px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(102, 195, 231);
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.submitButton {
+  height: 40px;
+  width: 110px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(102, 195, 231);
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/*------------------------------------------------------------------------*/
+/** Display all authors --------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+.displayMain {
+  border: 2px solid red;
+  height: 600px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.displaySecondary {
+  border: 2px solid blue;
+  height: 600px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+}
